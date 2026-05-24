@@ -55,7 +55,7 @@ Here is the visual workflow of our final pipeline architecture:
 For each processed image, the pipeline outputs a JSON dictionary containing the aggregated metrics, alongside the annotated image with drawn bounding boxes and brand labels.
 
 ### Image 1: Beverages Shelf
-![Beverages Output](/output/analyzed_img_1.jpg)
+![Beverages Output](output/analyzed_img_1.jpg)
 ```json
 {
     "image_name": "img_1.jpg",
@@ -100,7 +100,7 @@ For each processed image, the pipeline outputs a JSON dictionary containing the 
 ```
 
 ### Image 2: Snacks Shelf
-![Snacks Output](/output/analyzed_img_2.jpg)
+![Snacks Output](output/analyzed_img_2.jpg)
 ```json
 {
     "image_name": "img_2.jpg",
@@ -140,7 +140,7 @@ For each processed image, the pipeline outputs a JSON dictionary containing the 
 ```
 
 ### Image 3: Dairy Shelf
-![Dairy Output](/output/analyzed_img_3.jpg)
+![Dairy Output](output/analyzed_img_3.jpg)
 ```json
 {
     "image_name": "img_3.jpg",
