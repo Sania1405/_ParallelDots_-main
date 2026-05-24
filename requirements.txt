@@ -1,0 +1,17 @@
+# Retail Shelf Intelligence Pipeline Dependencies
+
+# YOLO-World for Zero-Shot Product Detection and Brand Classification
+ultralytics
+
+# CLIP for Brand Classification
+transformers
+torch
+Pillow
+
+# EasyOCR for Optical Character Recognition (Price Tags)
+easyocr
+
+# Computer Vision and Array processing
+opencv-python
+numpy
+matplotlib
