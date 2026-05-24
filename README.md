@@ -43,6 +43,42 @@ python main.py
 
 ---
 
+---
+
+## 📁 Project Structure
+
+```bash
+paralleldots/
+│
+├── analytics/                    # Pipeline orchestration and business logic
+│   └── shelf_analyzer.py
+│
+├── classification/               # Brand classification module (CLIP)
+│   └── clip_classifier.py
+│
+├── detection/                    # Product detection module (YOLO-World)
+│   └── yolo_detector.py
+│
+├── input_images/                 # Raw shelf images for inference
+│
+├── ocr/                          # OCR extraction module
+│   └── easy_ocr.py
+│
+├── output/                       # Annotated images and JSON outputs
+│
+├── Readme_images/                # Images used inside README explanations
+│
+├── README.md                     # Project documentation
+├── config.py                     # Configuration settings
+├── main.py                       # Main pipeline execution file
+├── requirements.txt              # Python dependencies
+└── yolov8s-world.pt              # YOLO-World model weights
+```
+
+---
+
+
+
 ## 🖼️ Architecture Diagram
 Here is the visual workflow of our final pipeline architecture:
 
@@ -218,6 +254,7 @@ The model is excellent at finding generic shapes ("coca cola bottle"), but it ca
 When dealing with specific brands, Zero-Shot models exhibit a massive bias toward dominant colors. 
 
 *   **The "Other" Bucket:** Initially, if the model doesn't strongly recognize a brand, it accurately defaults to throwing them into an "Other" category. As seen in the JSON metrics and the first image, a huge portion of the shelf is initially binned into "Other".
+  
 ![Initial Categorization into Other](Readme_images/img1.png)
 ![JSON Output showing High Other Count](Readme_images/imag2.png)
 
