@@ -1,0 +1,132 @@
+[
+    {
+        "image_name": "img_1.jpg",
+        "total_products": 83,
+        "brands": {
+            "Other": 60,
+            "Amul": 4,
+            "Coca-Cola": 11,
+            "Lay's": 4,
+            "Pepsi": 4
+        },
+        "ocr_labels": [
+            "35",
+            "50 00",
+            "40 00",
+            "50",
+            "110 250 1",
+            "10",
+            "30",
+            "75",
+            "55",
+            "50 4",
+            "60",
+            "0",
+            "105"
+        ],
+        "shelf_space_percentage": {
+            "Other": "72.8%",
+            "Amul": "5.6%",
+            "Coca-Cola": "13.4%",
+            "Lay's": "4.1%",
+            "Pepsi": "4.1%"
+        },
+        "availability_status": {
+            "Other": "High Presence",
+            "Amul": "Medium Presence",
+            "Coca-Cola": "Medium Presence",
+            "Lay's": "Low Presence",
+            "Pepsi": "Low Presence"
+        }
+    },
+    {
+        "image_name": "img_2.jpg",
+        "total_products": 44,
+        "brands": {
+            "Lay's": 12,
+            "Other": 25,
+            "Pringles": 6,
+            "Amul": 1
+        },
+        "ocr_labels": [
+            "99",
+            "20 52.5 9",
+            "28",
+            "10",
+            "20 57 5",
+            "20",
+            "20 52 5 0",
+            "20 120 0",
+            "20 52.5",
+            "20 0 9",
+            "20 112 9"
+        ],
+        "shelf_space_percentage": {
+            "Lay's": "27.4%",
+            "Other": "61.8%",
+            "Pringles": "8.7%",
+            "Amul": "2.0%"
+        },
+        "availability_status": {
+            "Lay's": "High Presence",
+            "Other": "High Presence",
+            "Pringles": "Medium Presence",
+            "Amul": "Low Presence"
+        }
+    },
+    {
+        "image_name": "img_3.jpg",
+        "total_products": 48,
+        "brands": {
+            "Other": 26,
+            "Amul": 22
+        },
+        "ocr_labels": [
+            "28",
+            "45 5",
+            "30",
+            "35",
+            "10",
+            "52",
+            "20",
+            "54",
+            "60",
+            "0",
+            "62",
+            "25"
+        ],
+        "shelf_space_percentage": {
+            "Other": "49.8%",
+            "Amul": "50.2%"
+        },
+        "availability_status": {
+            "Other": "High Presence",
+            "Amul": "High Presence"
+        }
+    },
+    {
+        "image_name": "testem.jpeg",
+        "total_products": 72,
+        "brands": {
+            "Other": 27,
+            "Coca-Cola": 31,
+            "Amul": 6,
+            "Pepsi": 8
+        },
+        "ocr_labels": [
+            "3 4"
+        ],
+        "shelf_space_percentage": {
+            "Other": "37.9%",
+            "Coca-Cola": "45.2%",
+            "Amul": "6.0%",
+            "Pepsi": "10.9%"
+        },
+        "availability_status": {
+            "Other": "High Presence",
+            "Coca-Cola": "High Presence",
+            "Amul": "Medium Presence",
+            "Pepsi": "Medium Presence"
+        }
+    }
+]
